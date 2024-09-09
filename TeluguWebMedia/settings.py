@@ -37,7 +37,7 @@ SECRET_KEY = 'django-insecure-e_1l1!rh^%&=o79t0h(ycjat8q!7%5(-%u4lq4e9wve!-%x49p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['13.60.96.16', 'yourdomain.com', 'www.yourdomain.com']
+ALLOWED_HOSTS = ['*']
 
 # ALLOWED_HOSTS = ['teluguwebmedia.co.in', 'www.teluguwebmedia.co.in']
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
